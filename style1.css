@@ -1,32 +1,5 @@
 
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@GrzegorzSadowski
-GrzegorzSadowski /
-v3
-Public
 
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-v3/style1.css
-@GrzegorzSadowski
-GrzegorzSadowski Update style1.css
-Latest commit 275baa2 10 minutes ago
-History
-1 contributor
-583 lines (498 sloc) 9.15 KB
 :root {
   --yellow: #ffc600;
   --black: #272727;
@@ -429,7 +402,7 @@ i {
     width: 100%;
     display: grid;
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 120px 80px 5px minmax(295px, 1fr) minmax(300px, 1fr);
+    grid-template-rows: 120px 80px 5px minmax(340px, 1fr) minmax(345px, 1fr);
   }
 
   .logo {
