@@ -307,6 +307,7 @@ i {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 15px solid #f0ce0f;
+    grid-column: 2/3;
     z-index: 15;
   }
 
