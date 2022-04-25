@@ -55,6 +55,8 @@ a {
 
 .center {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 100px;
   align-content: center;
   justify-items: center;
 }
@@ -123,7 +125,7 @@ a {
 
   background: url(miarka.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .text {
@@ -153,7 +155,7 @@ a {
 h1 {
   font-size: 175px;
   font-weight: 700;
-  margin-bottom: -100px;
+ 
 }
 
 h2 {
@@ -162,7 +164,7 @@ h2 {
 }
 
 .zolty {
-  color: #f0ce0f;
+  color: white;
   text-decoration: underline;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -190,6 +192,13 @@ a {
   color: #f0ce0f;
 }
 
+
+a {
+  display: grid;
+  align-self: end;
+  justify-self: start;
+}
+
 @media (max-width: 799px) {
   .container {
     display: grid;
@@ -212,6 +221,8 @@ a {
 
   .center {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     align-self: end;
     justify-self: start;
     justify-items: start;
@@ -332,7 +343,7 @@ a {
     width: 100%;
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 200px 30px minmax(300px, 1fr) minmax(300px, 1fr);
+    grid-template-rows: 200px 5px minmax(295px, 1fr) minmax(300px, 1fr);
   }
 
   .logo {
@@ -346,6 +357,8 @@ a {
 
   .center {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 70px;
     align-content: center;
     justify-items: center;
   }
@@ -414,7 +427,7 @@ a {
 
     background: url(miarka.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
   }
 
   .text {
@@ -435,7 +448,7 @@ a {
     grid-column: 1/2;
     grid-row: 4/5;
     display: grid;
-    grid-template-columns: 65px 1fr;
+    grid-template-columns: 45px 1fr;
     align-items: center;
     justify-items: start;
     font-size: 28px;
@@ -443,7 +456,7 @@ a {
   h1 {
     font-size: 120px;
     font-weight: 700;
-    margin-bottom: -80px;
+    
   }
 
   h2 {
@@ -452,7 +465,7 @@ a {
   }
 
   .zolty {
-    color: #f0ce0f;
+    color: white;
     text-decoration: underline;
     grid-column-start: 2;
     grid-column-end: 3;
