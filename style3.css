@@ -343,7 +343,7 @@ a {
     width: 100%;
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 200px 5px minmax(295px, 1fr) minmax(300px, 1fr);
+    grid-template-rows: 200px 5px minmax(340px, 1fr) minmax(345px, 1fr);
   }
 
   .logo {
