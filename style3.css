@@ -484,6 +484,9 @@ a {
     font-size: 21px;
     font-weight: 400;
   }
+  h6 {
+    font-size: 15px;
+  }
   a {
     text-decoration: none;
     color: white;
