@@ -563,6 +563,9 @@ i {
     font-size: 21px;
     font-weight: 400;
   }
+  h6 {
+    font-size: 15px;
+  }
 
   li {
     font-size: 15px;
